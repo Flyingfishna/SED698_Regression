@@ -21,7 +21,7 @@ if uploaded_file is not None:
     model.fit(X, y)
 
     # Step 4: Save model
-    with open("model-reg-xxx.pkl", "wb") as file:
+    with open("model-reg-67130701714.pkl", "wb") as file:
         pickle.dump(model, file)
 
     st.success("✅ Model trained and saved as 'model-reg-xxx.pkl'")
